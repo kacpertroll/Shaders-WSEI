@@ -24,8 +24,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 489ff4f782b88bc4ab84ed23a7bef7b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Mask:
         m_Texture: {fileID: 2800000, guid: 812cafa0db453d741b546d1b87131d09, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask2:
+        m_Texture: {fileID: 2800000, guid: c0935c391e0bfcf45a62cea1639e7e4b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Numbers:
@@ -48,10 +56,13 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 1
+    - _Speed: 0.5
+    - _Speed2: 0.2
+    - _UseMainTexture: 0
     m_Colors:
-    - _Albedo: {r: 0.07436701, g: 0.5283019, b: 0, a: 1}
-    - _Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Albedo: {r: 0.14686084, g: 1, b: 0, a: 1}
+    - _Albedo2: {r: 0.07198707, g: 0.5372549, b: 0, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4785340584336424739
