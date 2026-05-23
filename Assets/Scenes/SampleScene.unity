@@ -66263,11 +66263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68c2a5f953c32b4ca7fc37157562c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DissolveTurning
+  isVisibleAtStart: 1
   dissolveTime: 1
   lowerAlpha: -1.5
   higherAlpha: 1.5
-  isVisibleAtStart: 0
-  colliderMargin: 0
+  colliderMargin: 0.7
 --- !u!114 &1314898265
 MonoBehaviour:
   m_ObjectHideFlags: 0
