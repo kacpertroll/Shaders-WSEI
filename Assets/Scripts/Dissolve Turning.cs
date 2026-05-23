@@ -4,12 +4,13 @@ public class DissolveTurning : MonoBehaviour
 {
     private Material shaderMaterial;
 
+    [SerializeField] private bool isVisibleAtStart = true;
+    [Space]
+
     public float dissolveTime = 5f;
 
     [SerializeField] private float lowerAlpha = 0f;
     [SerializeField] private float higherAlpha = 1f;
-
-    public bool isVisibleAtStart = true;
 
     private float alphaClip = 0f;
     private float targetAlpha = 0f;
