@@ -448,9 +448,9 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "ec70054fbdfe429bb6a4d2421d980fce"
+                    "m_Id": "e81d3646c4b849baad6b188d0df1ad26"
                 },
-                "m_SlotId": 3
+                "m_SlotId": 0
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -754,8 +754,13 @@
     "m_ObjectId": "0d071fba6b5349d3a3ec14fcf781597c",
     "m_Title": "World-Space Cutoff",
     "m_Position": {
+<<<<<<< HEAD
         "x": -1177.9998779296875,
         "y": 98.0
+=======
+        "x": -1178.0001220703125,
+        "y": 98.00001525878906
+>>>>>>> 3d9f8d9c8e12eff07c9e94eed38977b3decbd75b
     }
 }
 
@@ -1015,13 +1020,17 @@
     "m_Guid": {
         "m_GuidSerialized": "8d6fc15f-53a6-4400-aeb8-f8b5803d3f8a"
     },
+<<<<<<< HEAD
     "promotedFromAssetID": "",
     "promotedFromCategoryName": "",
     "promotedOrdering": -1,
     "m_Name": "Cutoff Height",
+=======
+    "m_Name": "AlphaClip",
+>>>>>>> 3d9f8d9c8e12eff07c9e94eed38977b3decbd75b
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Cutoff Height",
-    "m_DefaultReferenceName": "_Cutoff_Height",
+    "m_RefNameGeneratedByDisplayName": "AlphaClip",
+    "m_DefaultReferenceName": "_AlphaClip",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1285,13 +1294,13 @@
             "m_Id": "78b7f27339ae48ef8d7f8b709352e3b6"
         },
         {
+            "m_Id": "21c7fc2b6b4b424b888b708c794d82c5"
+        },
+        {
             "m_Id": "c5d773f4fcdb44df8bb5ced85210e693"
         },
         {
             "m_Id": "e4da70ebf61b4e4fbe9d4713b1a3038b"
-        },
-        {
-            "m_Id": "21c7fc2b6b4b424b888b708c794d82c5"
         },
         {
             "m_Id": "a2076fcca7bd48f088dc001e006ac461"
@@ -2803,7 +2812,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "bec2cdf9cff5445aa0452f54eb5d6ffb",
     "m_Id": 0,
-    "m_DisplayName": "Cutoff Height",
+    "m_DisplayName": "AlphaClip",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

@@ -66289,7 +66289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d3c34b42ed39ff64baebb41c1adb9896, type: 2}
+  - {fileID: 2100000, guid: 5d210ef0ec4356a4882b9fb323f72976, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66348,7 +66348,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68c2a5f953c32b4ca7fc37157562c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DissolveTurning
-  dissolveTime: 5
+  isVisibleAtStart: 1
+  dissolveTime: 1
+  lowerAlpha: -1.5
+  higherAlpha: 1.5
+  colliderMargin: 0.7
 --- !u!114 &1314898265
 MonoBehaviour:
   m_ObjectHideFlags: 0
