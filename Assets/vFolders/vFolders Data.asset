@@ -11,32 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adb9c12a8c6c949f7af83a3d238359d0, type: 3}
   m_Name: vFolders Data
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: VFolders::VFolders.VFoldersData
   folderDatas_byGuid:
-    keys:
-    - 7ab019ea5c4f42d4b98568ba526d24e9
-    - 8c6dc20f81746e444898356fe874e5e5
-    - 0ebccc3f217111a448cc9ebff919689a
-    values:
-    - iconNameOrGuid: Shader Icon
-      colorIndex: 0
-      isIconRecursive: 0
-      isColorRecursive: 0
-    - iconNameOrGuid: Material Icon
-      colorIndex: 0
-      isIconRecursive: 0
-      isColorRecursive: 0
-    - iconNameOrGuid: Texture Icon
-      colorIndex: 0
-      isIconRecursive: 0
-      isColorRecursive: 0
+    keys: []
+    values: []
   bookmarks:
-  - guid: 7ab019ea5c4f42d4b98568ba526d24e9
-  - guid: 8c6dc20f81746e444898356fe874e5e5
-  - guid: 0ebccc3f217111a448cc9ebff919689a
-<<<<<<< HEAD
-  - guid: 9c53962885c2c4f449125a979d6ad240
   - guid: daf9198166d87914d89353262405dc5f
-=======
-  - guid: 5643e9c527e28d9479d9271834c40365
->>>>>>> 3d9f8d9c8e12eff07c9e94eed38977b3decbd75b
